@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.right-button ul li{
+    display: inline-block;
+}
+.home{
+    background-image: url(../images/home-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* z-index: -1; */
+    transform: translateY(-1.5px);
+    /* padding: 0px 0px 16px 0px; */
+    /* position: absolute; */
+    width: 100%;
+    background-attachment: fixed;
+}
+.b2 h4{
+    font-size: 20px;
+}
+.b2{
+    font-family: "Heebo",sans-serif;
+}
+.b2 h3{
+    line-height: 1.2;
+}
+.b3{
+    background-color: red;
+    color: #fff;
+}
+.b3:hover{
+    background-color: #fff;
+    color: rgb(211, 62, 62);
+}
+.c2 h4{
+font-size: 20px;
+line-height: 40px;
+}
+
+.c2 p{
+    font-size: 15px;
+    line-height: 26px;
+    }
+.c1{
+    background-color: red;
+    color: #fff;
+}
+.c1:hover{
+    background-color: #fff;
+    color: rgb(211, 62, 62);
+    border: 1px solid red;
+}
+/* .h1-img{
+    width: 170px;
+    height: 95px;
+    position: relative;
+    text-align: center;
+    padding-left: 50px;
+} */
+.heading2 p{
+    line-height: 27px;
+}
+/* .r1{
+    width: 260px;
+} */
+.r1:hover{
+    border: 1px solid red;
+}
+.counter1{
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 80vh; */
+    /* padding: 0px 0px 16px 0px; */
+}
+.area1 ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+.area1 ul li:hover{
+    color: red;
+}
+.active, .area1 ul li:hover{
+    color: red;
+}
+.card{
+    background-image: url(../images/cotation.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-body:hover h4{
+    color: red;
+}
+.thumb img:hover{
+    transform: scale(1.1);
+}
+.thumb{
+    overflow: hidden;
+}
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    text-decoration: none; 
+}
+.footer-bottom{
+    background-color: black;
+}
+@media only screen and (min-width:768px) {
+    .meta-top{
+        font-size: 12px;
+    }
+    .r1{
+        /* width: 350px; */
+    }
+}
+
+@media only screen (min-width: 992px) {
+ .c2{
+    padding-left: 30px;
+ } 
+ 
+ .r1{
+    /* width: 250px; */
+}     
+}
